@@ -5,8 +5,14 @@
 Read intro(2) and intro(7)
 
 ### ctags
+ctrl+]
+ctrl+t 
 ```sh
 exctags -f ~/.tags -R -I __weak_alias /usr/include/ /usr/src/lib/
 echo "set tags=tags\ /home/spmzt/.tags" >> ~/.exrc
 echo "set tags+=~/.tags" >> ~/.vimrc
 ```
+
+### vi
+For manual:
+shit+k
